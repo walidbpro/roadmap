@@ -248,7 +248,7 @@
                     <span class="red-pill">Coût ISO constant</span>
                 </div>
                 <div class="comp-col-content">
-                    <strong>252 k€</strong><br>
+                    <strong> + 252 k€</strong><br>
                 </div>
             </div>
 
@@ -267,52 +267,54 @@
     </div>
 
     <div class="slide">
-        <h1>Recrutement full freelance</h1>
-        <p class="sub-title">Calcul des coûts basés sur 218 jours travaillés</p>
-        
-        <div class="cost-card">
-            <h3 style="color: var(--blue-accent); margin-top:0;">Détail par profil</h3>
-            
-            <div class="cost-detail">
-                <strong>Dev Front (550 €/j) :</strong> 550 x 218 = 119 900 €
+        <h1>Comparatif Recrutement – Freelance vs Interne</h1>
+        <p class="sub-title">Basé sur 218 jours travaillés & grille salariale Fcom</p>
+    
+        <!-- Conteneur aligné -->
+        <div style="display:flex; justify-content:center; gap:2rem; align-items:flex-start; margin-top:2rem;">
+    
+            <!-- Bloc Freelance -->
+            <div class="cost-card" style="width:420px;">
+                <h2 style="color: var(--blue-accent); margin-top:0;">Recrutement full freelance</h2>
+    
+                <div class="cost-detail"><strong>Dev Front (550 €/j) :</strong> 550 x 218 = 119 900 €</div>
+                <div class="cost-detail"><strong>Dev Back (500 €/j) :</strong> 500 x 218 = 109 000 €</div>
+                <div class="cost-detail"><strong>UX/UI Designer (450 €/j) :</strong> 450 x 55 = 24 750 €</div>
+    
+                <hr style="opacity:0.2; margin:1rem 0;">
+    
+                <div class="total-section">
+                    <span style="color: var(--green-accent); font-weight: bold; font-size: 1.2rem;">TOTAL GLOBAL : </span>
+                    <span class="total-price">252 750 €</span>
+                </div>
             </div>
-            <div class="cost-detail">
-                <strong>Dev Back (500 €/j) :</strong> 500 x 218 = 109 000 €
+    
+            <!-- Bloc Interne -->
+            <div class="cost-card" style="width:420px;">
+                <h2 style="color: var(--blue-accent); margin-top:0;">Recrutement full interne</h2>
+    
+                <div class="cost-detail">
+                    <strong>Dev Front (35–40 k€ brut/an) :</strong> 45–52 k€ super brut/an
+                </div>
+                <div class="cost-detail">
+                    <strong>Dev Back (35–40 k€ brut/an) :</strong> 45–52 k€ super brut/an
+                </div>
+                <div class="cost-detail">
+                    <strong>UX/UI Designer (35–40 k€ brut/an) :</strong> 12,7–14,5 k€ super brut/an (Utilisation à 25 %)
+                </div>
+    
+                <hr style="opacity:0.2; margin:1rem 0;">
+    
+                <div class="total-section">
+                    <span style="color: var(--green-accent); font-weight: bold; font-size: 1.2rem;">TOTAL GLOBAL : </span>
+                    <span class="total-price">130 500 €</span>
+                </div>
             </div>
-            <div class="cost-detail">
-                <strong>UX/UI Designer (450 €/j) :</strong> 450 x 55 = 24 750 €
-            </div>
-
-            <div class="total-section">
-                <span style="color: var(--green-accent); font-weight: bold; font-size: 1.2rem;">TOTAL GLOBAL : </span>
-                <span class="total-price">252 750 €</span>
-            </div>
+    
         </div>
     </div>
-
-    <div class="slide">
-        <h1>Recrutement full interne</h1>
-        <p class="sub-title">Fourchette de salaire aligné avec la grille Fcom</p>
-        
-        <div class="cost-card">
-            <h3 style="color: var(--blue-accent); margin-top:0;">Détail par profil</h3>
-            
-            <div class="cost-detail">
-                <strong>Dev Front (35 - 40 brut) :</strong> → 56 000 à 58 000 € super brut/an
-            </div>
-            <div class="cost-detail">
-                <strong>Dev Back (35 – 40 brut) :</strong> → 50 750 € à 58 000 € super brut/an
-            </div>
-            <div class="cost-detail">
-                <strong>UX/UI Designer (35 – 40 brut) :</strong> → Utilisation à hauteur de 25 % : 12 687,50 € à 14 500 € super brut/an
-            </div>
-
-            <div class="total-section">
-                <span style="color: var(--green-accent); font-weight: bold; font-size: 1.2rem;">TOTAL GLOBAL : </span>
-                <span class="total-price">130 500 €</span>
-            </div>
-        </div>
-    </div>
+    
+    
 
     <div class="slide">
         <h2>Détail des Chantiers Techniques</h2>
@@ -351,7 +353,7 @@
                 <tr>
                     <td>IA</td>
                     <td>Migration IA groupe</td>
-                    <td style="color: #94A3B8;">À faire</td>
+                    <td class="status-progress"><span>⌛</span> A faire</td>
                     <td><span class="badge badge-medium">MEDIUM</span></td>
                     <td>5j</td>
                 </tr>
